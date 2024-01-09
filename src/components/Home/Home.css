@@ -1,0 +1,53 @@
+/* Home.css */
+
+.demo-logo-vertical {
+    height: 32px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 16px;
+  }
+  
+  .site-layout-header {
+    padding: 0;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: calc(100% - 260px);
+    left: 260px;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .menu-btn {
+    font-size: 18px;
+    margin-left: 16px;
+  }
+  
+  .open-drawer-btn {
+    font-size: 24px;
+    color: #1890ff;
+    margin-right: 16px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1000;
+  }
+  
+  .site-layout-content {
+    padding: 24px;
+    background: #fff;
+    min-height: 100vh;
+    position: relative;
+    width: 100%;
+  }
+  
+  .logout-btn {
+    position: absolute;
+    bottom: 24px;
+    width: 90%;
+    margin-left:5%;
+    text-align: center;
+  }
+  
