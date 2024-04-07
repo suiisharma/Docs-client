@@ -72,6 +72,7 @@ const Signin = () => {
               prefix={<MailOutlined className="site-form-item-icon" />}
               placeholder="Email"
               className="input-field"
+              initialValues="rotaj94720@dacgu.com"
             />
           </Form.Item>
 
@@ -83,6 +84,7 @@ const Signin = () => {
               prefix={<LockOutlined className="site-form-item-icon" />}
               placeholder="Password"
               className="input-field"
+              initialValues="m]48}V_Da8FSu'W"
             />
           </Form.Item>
 
