@@ -58,7 +58,10 @@ const Signin = () => {
         <h1 className="signin-title">Welcome Back!</h1>
         <Form
           name="signin"
-          initialValues={{ remember: true }}
+          initialValues={{ remember: true,
+          email: 'rotaj94720@dacgu.com', 
+          password: "m]48}V_Da8FSu'W"
+           }}
           onFinish={onFinish}
         >
           <Form.Item
@@ -72,7 +75,6 @@ const Signin = () => {
               prefix={<MailOutlined className="site-form-item-icon" />}
               placeholder="Email"
               className="input-field"
-              initialValues="rotaj94720@dacgu.com"
             />
           </Form.Item>
 
@@ -84,7 +86,6 @@ const Signin = () => {
               prefix={<LockOutlined className="site-form-item-icon" />}
               placeholder="Password"
               className="input-field"
-              initialValues="m]48}V_Da8FSu'W"
             />
           </Form.Item>
 
